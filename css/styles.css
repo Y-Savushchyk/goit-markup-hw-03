@@ -17,6 +17,7 @@ body {
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px;
 }
 .link {
   cursor: pointer;
@@ -28,7 +29,27 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+p {
+  margin: 0;
 }
 /* стили header*/
 .page-header .main-nav {
@@ -38,7 +59,7 @@ body {
   padding-right: 215px;
 }
 .header-logo {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin-right: 93px;
 }
 .logo {
@@ -60,7 +81,7 @@ body {
   display: flex;
 }
 .site-nav li {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   margin-right: 50px;
 }
 .site-nav .nav-item:last-child {
@@ -86,7 +107,7 @@ body {
 }
 .contacts li {
   margin-right: 50px;
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 .contacts .item:last-child {
   margin-right: 0;
@@ -112,15 +133,29 @@ footer {
   background-color: var(--ptimary-dark-bg-color);
   color: var(--primary-white-color);
 }
+.footer-logo {
+  /*outline: 1px solid red;*/
+  padding-top: 60px;
+  padding-bottom: 20px;
+  padding-left: 215px;
+}
 footer .logo {
+  padding-top: 0px;
+  padding-bottom: 0px;
   color: var(--primary-white-color);
 }
+
 .address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+.footer-address {
+  padding-left: 215px;
+  padding-bottom: 60px;
+  /*outline: 1px solid red;*/
 }
 .address .link {
   text-decoration: none;
@@ -129,6 +164,12 @@ footer .logo {
 .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
+}
+.footer-address > .address > .item {
+  margin-bottom: 9px;
+}
+.footer-address > .address > .item:last-child {
+  margin-bottom: 0px;
 }
 
 /*страничка портфолио*/
@@ -169,12 +210,16 @@ h3 {
 /*главная страница*/
 /*банер*/
 .hero {
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
   text-align: center;
   background-color: var(--ptimary-dark-bg-color);
 }
 .hero .title {
-  outline: 1px solid red;
+  margin: 106px;
+  margin-left: 452px;
+  margin-right: 452px;
+  margin-bottom: 30px;
+  /*outline: 1px solid red;*/
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
@@ -185,6 +230,10 @@ h3 {
   text-transform: uppercase;
 }
 .hero .order {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 106px;
+  /*outline: 1px solid red;*/
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: 'Roboto';
@@ -204,6 +253,8 @@ h3 {
   letter-spacing: 0.03em;
 }
 .benefits .title {
+  /*outline: 1px solid red;*/
+
   color: var(--primary-title-color);
   font-style: normal;
   font-weight: 700;
@@ -212,15 +263,55 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.benefits > .list {
+  /*outline: 1px solid red;*/
+
+  display: flex;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.benefits > .list > .item {
+  /*outline: 1px solid red;*/
+
+  margin-right: 30px;
+}
+.benefits > .list > .item:last-child {
+  margin-right: 0px;
+}
+.benefits > .list > .item > p {
+  /*outline: 1px solid red;*/
+
+  margin-top: 10px;
+}
+
 /*Чим ми займаємося*/
-.acrivity .title {
+.activity {
+  padding-top: 0px;
+}
+.activity > .title {
   color: var(--primary-title-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
 }
+.activity > .list {
+  /*outline: 1px solid red;*/
+  padding-left: 215px;
+  padding-right: 215px;
+
+  display: flex;
+}
+.activity > .list > .item {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+.activity > .list > .item:last-child {
+  margin-right: 0px;
+}
+
 /*наша команда*/
 .team {
   font-size: 16px;
@@ -228,16 +319,43 @@ h3 {
   letter-spacing: 0.03em;
 }
 .team .title {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  /*outline: 1px solid red;*/
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+  text-align: center;
+
   letter-spacing: 0.03em;
 }
 .team .team-title {
+  margin-bottom: 50px;
+  /*outline: 1px solid red;*/
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+}
+.team > .list {
+  padding-left: 215px;
+  padding-right: 215px;
+  /*outline: 1px solid red;*/
+
+  display: flex;
+  text-align: center;
+}
+.team > .list > .item {
+  /*outline: 1px solid red;*/
+  margin-right: 30px;
+  /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+}
+.team > .list > .item:last-child {
+  margin-right: 0px;
+}
+.team > .list > .item > p {
+  padding-bottom: 30px;
 }
