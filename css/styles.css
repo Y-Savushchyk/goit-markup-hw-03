@@ -11,18 +11,43 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 .list {
   list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .link {
   cursor: pointer;
 }
+.title {
+  margin: 0;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  outline: 1px solid red;
+}
 /* стили header*/
+.page-header .main-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 215px;
+  padding-right: 215px;
+}
+.header-logo {
+  outline: 1px solid red;
+  margin-right: 93px;
+}
 .logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
   color: #000000;
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -31,25 +56,51 @@ body {
 .logo .logo-accent {
   color: var(--accent-color);
 }
+.site-nav {
+  display: flex;
+}
+.site-nav li {
+  outline: 1px solid red;
+  margin-right: 50px;
+}
+.site-nav .nav-item:last-child {
+  margin-right: 0;
+}
 .site-nav .link {
+  display: block;
+  letter-spacing: 0.02em;
+  padding: 32px 0px;
   text-decoration: none;
   color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.contacts {
+  margin-left: auto;
+  display: flex;
+}
+.contacts li {
+  margin-right: 50px;
+  outline: 1px solid red;
+}
+.contacts .item:last-child {
+  margin-right: 0;
+}
+
 .contacts .link {
+  display: block;
+  letter-spacing: 0.02em;
+  padding: 32px 0px;
   text-decoration: none;
   color: var(--primary-title-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -87,7 +138,7 @@ h3 {
   color: var(--primary-title-color);
 }
 .project-nav .filter {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: var(--primary-title-color);
   background-color: var(--prymary-buttonbg-color);
   border-radius: 4px;
@@ -118,9 +169,12 @@ h3 {
 /*главная страница*/
 /*банер*/
 .hero {
+  outline: 1px solid red;
+  text-align: center;
   background-color: var(--ptimary-dark-bg-color);
 }
 .hero .title {
+  outline: 1px solid red;
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
@@ -133,7 +187,7 @@ h3 {
 .hero .order {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
