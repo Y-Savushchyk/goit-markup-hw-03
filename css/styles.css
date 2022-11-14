@@ -63,6 +63,9 @@ img {
 }
 
 /* стили header*/
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
 .header-page > .container {
   display: flex;
 }
