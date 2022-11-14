@@ -30,8 +30,8 @@ body {
   cursor: pointer;
 }
 .container {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: auto;
+  margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
