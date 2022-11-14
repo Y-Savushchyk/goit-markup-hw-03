@@ -28,6 +28,9 @@ body {
   padding-right: 15px;
   /*outline: 1px solid red;*/
 }
+.section {
+  width: 1600px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
