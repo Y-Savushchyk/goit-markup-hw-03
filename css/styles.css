@@ -245,13 +245,15 @@ p {
   margin-bottom: -30px;
 }
 .examples > .item {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
   /* outline: 1px solid red;*/
 
   margin-right: 27.34px;
   margin-bottom: 30px;
   padding-bottom: 20px;
+}
+.info-box {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 .examples .title {
