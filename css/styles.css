@@ -53,6 +53,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+img {
+  /*display: block;*/
+  vertical-align: top;
+}
 .btn {
   border-radius: 4px;
   border: 1px solid transparent;
