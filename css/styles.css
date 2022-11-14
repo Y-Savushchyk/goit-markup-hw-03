@@ -13,16 +13,35 @@ body {
   font-family: Roboto, sans-serif;
 }
 .list {
+  margin: 0;
   list-style: none;
 }
 .link {
   cursor: pointer;
 }
+.container {
+  margin-left: 215px;
+  margin-right: 215px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
 /* стили header*/
+header > .container {
+  display: flex;
+}
+.header-logo {
+  outline: 1px solid red;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo {
   color: #000000;
   text-decoration: none;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -31,6 +50,22 @@ body {
 .logo .logo-accent {
   color: var(--accent-color);
 }
+.site-nav {
+  outline: 1px solid red;
+
+  display: flex;
+  padding-left: 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav > .item {
+  outline: 1px solid red;
+  margin-right: 50px;
+}
+.site-nav > .item:last-child {
+  margin-right: 0px;
+}
+
 .site-nav .link {
   text-decoration: none;
   color: var(--primary-title-color);
@@ -43,6 +78,22 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.contacts {
+  outline: 1px solid red;
+
+  display: flex;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contacts > .item {
+  margin-right: 50px;
+  outline: 1px solid red;
+}
+.contacts > .item:last-child {
+  margin-right: 0px;
+}
+
 .contacts .link {
   text-decoration: none;
   color: var(--primary-title-color);
@@ -86,8 +137,14 @@ h2,
 h3 {
   color: var(--primary-title-color);
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
 .project-nav .filter {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: var(--primary-title-color);
   background-color: var(--prymary-buttonbg-color);
   border-radius: 4px;
@@ -133,7 +190,7 @@ h3 {
 .hero .order {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -159,7 +216,7 @@ h3 {
   text-transform: uppercase;
 }
 /*Чим ми займаємося*/
-.acrivity .title {
+.activity .title {
   color: var(--primary-title-color);
   font-style: normal;
   font-weight: 700;
