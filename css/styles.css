@@ -14,6 +14,7 @@ body {
 }
 .list {
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 .link {
@@ -29,7 +30,7 @@ body {
 }
 
 /* стили header*/
-header > .container {
+.header-page > .container {
   display: flex;
 }
 .header-logo {
@@ -176,8 +177,19 @@ p {
 /*банер*/
 .hero {
   background-color: var(--ptimary-dark-bg-color);
+  text-align: center;
+}
+.hero > .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 207px;
+  padding-right: 207px;
+
+  outline: 1px solid red;
 }
 .hero .title {
+  margin-bottom: 30px;
+  outline: 1px solid red;
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 900;
@@ -188,6 +200,8 @@ p {
   text-transform: uppercase;
 }
 .hero .order {
+  outline: 1px solid red;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: 'Roboto';
@@ -195,9 +209,7 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 /*перелік переваг*/
