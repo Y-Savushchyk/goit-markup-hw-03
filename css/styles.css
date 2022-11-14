@@ -35,7 +35,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 1px solid red;*/
+  /*outline: 1px solid red;*/
 }
 .section {
   width: 1600px;
@@ -241,13 +241,13 @@ p {
 .examples {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -32.66px;
+  margin-right: -30px;
   margin-bottom: -30px;
 }
 .examples > .item {
-  /* outline: 1px solid red;*/
+  /*outline: 1px solid red;*/
 
-  margin-right: 27.34px;
+  margin-right: 30px;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
