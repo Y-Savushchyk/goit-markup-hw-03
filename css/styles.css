@@ -122,20 +122,43 @@ body {
 }
 
 /*стили fotter*/
+.footer-page.container {
+}
+
 footer {
   background-color: var(--ptimary-dark-bg-color);
   color: var(--primary-white-color);
 }
+.footer-page .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-page .container > .footer-logo {
+  margin-bottom: 20px;
+}
 footer .logo {
+  outline: 1px solid red;
+
   color: var(--primary-white-color);
 }
 .address {
+  outline: 1px solid red;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.address > .item {
+  outline: 1px solid red;
+
+  margin-bottom: 9px;
+}
+.address > .item:last-child {
+  margin-bottom: 0px;
+}
+
 .address .link {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
