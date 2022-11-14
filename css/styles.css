@@ -231,7 +231,14 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.container > .list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .benefits .title {
+  outline: 1px solid red;
+
   color: var(--primary-title-color);
   font-style: normal;
   font-weight: 700;
@@ -240,6 +247,13 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.container > .list > .item {
+  margin-right: 30px;
+}
+.container > .list > .item:last-child {
+  margin-right: 0px;
+}
+
 /*Чим ми займаємося*/
 .activity .title {
   color: var(--primary-title-color);
