@@ -231,12 +231,13 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.container > .list {
+.benefits > .container > .list {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .benefits .title {
+  margin-bottom: 10px;
   outline: 1px solid red;
 
   color: var(--primary-title-color);
@@ -247,39 +248,75 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.container > .list > .item {
+.benefits > .container > .list > .item {
   margin-right: 30px;
 }
-.container > .list > .item:last-child {
+.benefits > .container > .list > .item:last-child {
   margin-right: 0px;
 }
 
 /*Чим ми займаємося*/
+.activity > .container {
+  padding-bottom: 94px;
+}
+.activity > .container > .list {
+  display: flex;
+}
+.activity > .container > .list > .item {
+  margin-right: 30px;
+}
+.activity > .container > .list > .item:last-child {
+  margin-right: 00px;
+}
+
 .activity .title {
+  margin-bottom: 50px;
   color: var(--primary-title-color);
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 /*наша команда*/
-.team {
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-.team .title {
-  font-style: normal;
-  font-weight: 500;
+.team .container > .list {
+  display: flex;
+  padding-bottom: 30px;
+}
+.team .container > .list > .item {
+  outline: 1px solid red;
+  margin-right: 30px;
+}
+.team .container > .list > .item:last-child {
+  margin-right: 0px;
+}
+
+.team {
+  text-align: center;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .team .team-title {
+  margin-bottom: 50px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team .title-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
   letter-spacing: 0.03em;
 }
