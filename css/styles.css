@@ -21,8 +21,8 @@ body {
   cursor: pointer;
 }
 .container {
-  margin-left: 215px;
-  margin-right: 215px;
+  margin-left: 200px;
+  margin-right: 200px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -180,6 +180,25 @@ h3,
 p {
   margin: 0;
 }
+.our-project {
+  text-align: center;
+}
+.our-project > .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.project-nav {
+  margin-left: 312px;
+  display: flex;
+  margin-bottom: 34px;
+}
+.project-nav > .item {
+  margin-right: 8px;
+}
+.project-nav > .item:last-child {
+  margin-right: 0px;
+}
+
 .project-nav .filter {
   font-family: 'Roboto';
   color: var(--primary-title-color);
@@ -198,7 +217,23 @@ p {
   background-color: var(--accent-color);
   cursor: pointer;
 }
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+.examples > .item {
+  outline: 1px solid red;
+
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
 .examples .title {
+  margin-top: 20px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -218,8 +253,8 @@ p {
 .hero > .container {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 207px;
-  padding-right: 207px;
+  padding-left: 252px;
+  padding-right: 252px;
 
   outline: 1px solid red;
 }
