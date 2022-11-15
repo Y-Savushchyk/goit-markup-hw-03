@@ -17,7 +17,6 @@ html {
   --prymary-buttonbg-color: #f5f4fa;
 }
 body {
-  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -382,7 +381,6 @@ p {
 }
 .team .container > .list {
   display: flex;
-  padding-bottom: 30px;
 }
 .team .container > .list > .item {
   /*outline: 1px solid red;*/
@@ -393,10 +391,14 @@ p {
 }
 
 .team {
+  background: #f5f4fa;
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+}
+.team > .container > .card-set > .card-item {
+  margin-bottom: 0px;
 }
 .team .team-title {
   margin-bottom: 50px;
@@ -409,10 +411,25 @@ p {
 }
 .team .title-name {
   margin-top: 30px;
+
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+.team-card {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card-thumb {
+  border-radius: 0px;
+}
+.team-card-content {
+  padding-bottom: 30px;
+}
+.taem-card-text {
 }
