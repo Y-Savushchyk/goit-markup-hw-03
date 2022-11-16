@@ -263,14 +263,14 @@ p {
 .card-content {
   background: #ffffff;
   border: 1px solid #eeeeee;
+  padding-top: 20px;
   padding-left: 24px;
-  padding-right: auto;
+  padding-right: 24px;
   padding-bottom: 20px;
   text-align: left;
 }
 
 .card-set .title {
-  margin-top: 20px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -361,7 +361,7 @@ p {
   margin-right: 30px;
 }
 .activity > .container > .list > .item:last-child {
-  margin-right: 00px;
+  margin-right: 0px;
 }
 
 .activity .title {
@@ -398,7 +398,6 @@ p {
   letter-spacing: 0.03em;
 }
 .team > .container > .card-set > .card-item {
-  margin-bottom: 0px;
 }
 .team .team-title {
   margin-bottom: 50px;
@@ -410,8 +409,6 @@ p {
   letter-spacing: 0.03em;
 }
 .team .title-name {
-  margin-top: 30px;
-
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
@@ -424,12 +421,13 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.team-card-thumb {
-  border-radius: 0px;
+  margin-bottom: 0px;
 }
 .team-card-content {
+  padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .taem-card-text {
 }
